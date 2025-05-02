@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _223__arya_3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("adad ra vard koned");
+
+            double c = double.Parse(Console.ReadLine());
+
+            double rendom = Math.Round ( c , 2);
+            Console.WriteLine("adad=" + rendom);
+        }
+    }
+}
+
