@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _223_arya1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("adad ra vard koned =");
+
+            int a = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("tevan ra vard koned =");
+
+            int b = int.Parse(Console.ReadLine());
+
+            double tavan = Math.Pow (a, b);
+
+            Console.WriteLine(tavan);
+        }
+    }
